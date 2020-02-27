@@ -35,7 +35,6 @@ type NetworkSpec struct {
 }
 
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
-
 // NetworkList is a list of Network resources
 type NetworkList struct {
 	metav1.TypeMeta `json:",inline"`
