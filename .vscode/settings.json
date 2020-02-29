@@ -1,0 +1,5 @@
+{
+  "go.autocompleteUnimportedPackages": true,
+  "go.toolsGopath": "/home/bharat/go",
+  "go.goroot": "/home/bharat/go"
+}

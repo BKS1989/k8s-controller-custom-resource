@@ -40,7 +40,6 @@ func addKnownTypes(scheme *runtime.Scheme) error {
 		&Network{},
 		&NetworkList{},
 	)
-
 	// register the type in the scheme
 	metav1.AddToGroupVersion(scheme, SchemeGroupVersion)
 	return nil
